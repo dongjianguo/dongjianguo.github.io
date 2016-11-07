@@ -1,0 +1,48 @@
+.info {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto 18px;
+    padding: 30px 24px;
+    width: 1000px;
+    box-sizing: border-box;
+    color: #fff;
+    background: #4a4a4a;
+}
+
+.info-qrcode {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+.info-qrcode img {
+    width: 100%;
+    height: auto;
+}
+
+.info-info {
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 14px;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.info-name {
+    font-size: 24px;
+    line-height: 2;
+    text-align: center;
+}
+
+.info-job {
+    font-size: 14px;
+    line-height: 1;
+}
