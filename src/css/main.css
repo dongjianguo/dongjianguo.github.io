@@ -224,16 +224,8 @@ body {
     width: 100%;
 }
 
-.col-line i {
-    display: block;
-}
-
 .col-line-margin {
     margin-top: 6px;
-}
-
-.col-line .iconfont {
-    margin-right: 2px;
 }
 
 .icon-circle {
