@@ -309,6 +309,9 @@ body {
         margin-bottom: 0;
         width: 100%;
     }
+    .col-line {
+        display: block;
+    }
     .col-title {
         font-size: 16px;
     }
