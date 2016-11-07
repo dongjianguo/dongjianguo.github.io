@@ -224,6 +224,10 @@ body {
     width: 100%;
 }
 
+.col-line i {
+    width: 1em;
+}
+
 .col-line-margin {
     margin-top: 6px;
 }
