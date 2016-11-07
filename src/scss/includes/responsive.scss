@@ -8,6 +8,18 @@
         margin-bottom: 0;
         width: 100%;
     }
+    .col-title {
+        font-size: 16px;
+    }
+    .icon-circle {
+        width: 32px;
+        height: 32px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .col-tag {
+        font-size: 16px;
+    }
     .info {
         display: flex;
         flex-direction: column;
@@ -52,7 +64,7 @@
         position: static;
     }
     .col {
-        padding: 20px;
+        padding: 0 20px 20px;
         border-left: 0;
     }
     .col::after {
