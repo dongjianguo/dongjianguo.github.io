@@ -225,7 +225,7 @@ body {
 }
 
 .col-line i {
-    width: 1em;
+    display: block;
 }
 
 .col-line-margin {
