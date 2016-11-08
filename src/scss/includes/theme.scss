@@ -1,0 +1,41 @@
+// 用于存放所有的配色及边框的样式
+html, body {
+    color: $dark;
+}
+.info {
+    color: $white;
+    background: $dark;
+}
+.info-qrcode {
+    background-color: $white;
+    border: 2px solid $white;
+}
+
+.col {
+    border-left: 6px solid $dark;
+    &::after {
+        background: $dark;
+    }
+}
+.col-title {
+    color: $color;
+}
+.col-tag {
+    color: $white;
+    background: $dark;
+}
+
+.guide {
+    color: $dark;
+}
+
+.emphasize {
+    color: $color;
+}
+
+@media only screen and (max-width: 600px) {
+    .info {
+        color: $dark;
+        background: $white;
+    }
+}

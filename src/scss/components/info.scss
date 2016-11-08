@@ -1,3 +1,4 @@
+// 个人信息栏目样式
 .info {
     display: -webkit-flex;
     display: flex;
@@ -9,8 +10,6 @@
     padding: 30px 24px;
     width: 1000px;
     box-sizing: border-box;
-    color: #fff;
-    background: #4a4a4a;
 }
 
 .info-qrcode {
@@ -18,14 +17,11 @@
     width: 80px;
     height: 80px;
     vertical-align: middle;
-    background-color: #fff;
-    border: 2px solid #fff;
     border-radius: 4px;
-}
-
-.info-qrcode img {
-    width: 100%;
-    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .info-info {

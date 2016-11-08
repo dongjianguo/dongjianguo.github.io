@@ -1,0 +1,52 @@
+//打印样式更改
+@media print {
+    .info {
+        color: $dark;
+        background: $white;
+    }
+    .info-left {
+        order: 2;
+        text-align: left;
+    }
+    .info-name,
+    .info-job {
+        text-align: left;
+    }
+    .info-right {
+        order: 1;
+    }
+    .info-qrcode {
+        display: none;
+    }
+    .iconfont,
+    .icon-circle {
+        display: none;
+    }
+    .content {
+        position: static;
+        flex-wrap: nowrap;
+    }
+    .col {
+        margin-bottom: 10px;
+        width: 100%;
+        border-left: 0;
+    }
+    .col::after {
+        display: none;
+    }
+    .col-title {
+        position: static;
+        font-weight: bold;
+        color: $dark;
+    }
+    .col-tag {
+        color: $dark;
+        background: $white;
+    }
+    .col-anchor {
+        color: $dark;
+    }
+    .emphasize {
+        color: $dark;
+    }
+}

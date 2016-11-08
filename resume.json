@@ -1,0 +1,94 @@
+{
+    "resume_title": "董健国的个人简历",
+    "name": "董健国",
+    "job_desc": "WEB前端工程师",
+    "figure": "src/img/wechat.png",
+    "contact": [{
+        "icon_class": "icon-tel",
+        "desc": "手机：15207550812"
+    }, {
+        "icon_class": "icon-wechat",
+        "desc": "微信：freakcoconut"
+    }, {
+        "icon_class": "icon-email",
+        "desc": "邮箱：706388859@qq.com"
+    }],
+    "column": [{
+        "icon_class": "icon-edu",
+        "title": "教育经历 Education",
+        "content": [{
+            "tag": "深圳大学 Shenzhen University",
+            "row": [{
+                "icon_class": "icon-prize",
+                "text": "信息工程-通信工程（2011~2015-本科）"
+            }, {
+                "icon_class": "icon-award",
+                "text": "2013~2015学业优等生（二等奖）"
+            }, {
+                "icon_class": "icon-award",
+                "text": "2013~2015优秀学生干部（三等奖）"
+            }, {
+                "icon_class": "icon-award",
+                "text": "2011~2012军训优秀学员"
+            }, {
+                "icon_class": "icon-star",
+                "text": "大学英语四级考试（CET-4）547/710"
+            }, {
+                "icon_class": "icon-star",
+                "text": "大学英语四级考试（CET-6）497/710"
+            }]
+        }]
+    }, {
+        "icon_class": "icon-talent",
+        "title": "技能 Skill",
+        "content": [{
+            "tag": "前端开发 Frontend Develop",
+            "row": [{
+                "icon_class": "icon-item",
+                "text": "编写`语义化`的HTML、`模块化`的CSS"
+            }, {
+                "icon_class": "icon-item",
+                "text": "熟悉ECMAScript（Javascript），并能实现`较复杂的布局与动画`"
+            }, {
+                "icon_class": "icon-item",
+                "text": "熟练运用`Bootstrap`、`AmazeUI`等多种常见主流CSS库，但开发并不局限或依赖于库"
+            }, {
+                "icon_class": "icon-item",
+                "text": " 掌握`Google Chrome调试技巧`，并会使用`浏览器扩展插件`辅助开发、调试"
+            }, {
+                "icon_class": "icon-item",
+                "text": "熟悉`NodeJS`，掌握`Less`、`Sass`，并会使用配合主流的`gulp`、`webpack`以及相应的优秀插件帮助搭建`前端自动化`开发"
+            }, {
+                "icon_class": "icon-item",
+                "text": "熟练掌握并使用主流平面图形处理软件切图，如`Photoshop`、`Adobe Illustrator`、`Sketch`，处理成适宜WEB使用的格式"
+            }, {
+                "icon_class": "icon-item",
+                "text": "能够独立完成较简易的`扁平化设计风格`任务"
+            }]
+        }]
+    }, {
+        "icon_class": "icon-rocket",
+        "title": "线上活动 Online Activities",
+        "content": [{
+            "tag": "AmazeUI线上组件开发比赛",
+            "row": [{
+                "icon_class": "icon-award",
+                "text": "众多经验丰富的开发者参赛，巧妙利用字体图标，秉承简单易用的设计理念，完成了`个性化十足`、`可塑性强`的评分扩展组件"
+            }, {
+                "icon_class": "icon-link",
+                "link": "https://github.com/dongjianguo/rate",
+                "text": "https://github.com/dongjianguo/rate"
+            }]
+        }]
+    }, {
+        "icon_class": "icon-case",
+        "title": "项目与经验 Experience",
+        "content": [{
+            "tag": "深圳市绽放工场网络科技",
+            "row": [{
+                "icon_class": "icon-tag",
+                "text": ""
+            }]
+        }]
+    }]
+}

@@ -1,6 +1,134 @@
-* {
+/*
+KISSY CSS Reset
+*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+fieldset,
+lengend,
+button,
+input,
+textarea,
+th,
+td {
     margin: 0;
     padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+    font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp,
+tt {
+    font-family: "Courier New", Courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+abbr[title],
+acronym[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+legend {
+    color: #000;
+}
+
+fieldset,
+img {
+    border: none;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+}
+
+html {
+    overflow-y: scroll;
 }
 
 html,
@@ -217,14 +345,15 @@ body {
 }
 
 .col-line {
-    display: -webkit-flex;
+    /*display: -webkit-flex;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-start;*/
+    display: block;
     width: 100%;
 }
 
-.col-line-margin {
+.margin-top {
     margin-top: 6px;
 }
 
@@ -249,6 +378,7 @@ body {
 }
 
 .emphasize {
+    display: inline-block;
     color: #009688;
 }
 
@@ -385,5 +515,57 @@ body {
     }
     .guide {
         display: block;
+    }
+}
+
+@media print {
+    .info {
+        color: #4a4a4a;
+        background: #fff;
+    }
+    .info-left {
+        order: 2;
+        text-align: left;
+    }
+    .info-name,
+    .info-job {
+        text-align: left;
+    }
+    .info-right {
+        order: 1;
+    }
+    .info-qrcode {
+        display: none;
+    }
+    .iconfont,
+    .icon-circle {
+        display: none;
+    }
+    .content {
+        position: static;
+        flex-wrap: nowrap;
+    }
+    .col {
+        margin-bottom: 10px;
+        width: 100%;
+        border-left: 0;
+    }
+    .col::after {
+        display: none;
+    }
+    .col-title {
+        position: static;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    .col-tag {
+        color: #4a4a4a;
+        background: #fff;
+    }
+    .col-anchor {
+        color: #4a4a4a;
+    }
+    .emphasize {
+        color: #4a4a4a;
     }
 }

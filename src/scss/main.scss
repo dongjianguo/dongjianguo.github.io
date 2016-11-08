@@ -1,15 +1,15 @@
 @charset "UTF-8";
-
+// 引入淘宝KISSY的浏览器样式统一文件
 @import "includes/normalize";
-
+// 引入变量及全局需要的构造器或者样式
 @import "includes/variables";
 @import "includes/global";
-
+// 引入辅助布局的样式
 @import "includes/layout";
-
+// 引入组件的集合
 @import "includes/components";
-
+// 引入主题配色样式
 @import "includes/theme";
-
+// 引入响应式以及打印样式
 @import "includes/responsive";
 @import "includes/print";
